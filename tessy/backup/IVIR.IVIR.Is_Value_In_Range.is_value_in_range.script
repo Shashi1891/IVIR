@@ -1,0 +1,71 @@
+$testobject {
+
+	$testcase 1 {
+		$name ""
+		$uuid "f3e94dbf-e22c-46a2-8f99-89df9e7a6660"
+
+		$teststep 1.1 {
+			$name ""
+			$uuid "446b6143-9cb0-4bcb-ab2c-4b9177b3b37e"
+			$inputs {
+				r1 {
+					range_start = 5
+					range_len = 10
+				}
+				v1 = 4
+			}
+			$outputs {
+				return no
+			}
+			$calltrace {
+				*** No Call Expected ***
+			}
+		}
+	}
+
+	$testcase 2 {
+		$name ""
+		$uuid "196f4079-6ae4-4486-8da7-56143c9e6e6e"
+
+		$teststep 2.1 {
+			$name ""
+			$uuid "381c7022-dfe6-4b91-9224-1d38305f8e35"
+			$inputs {
+				r1 {
+					range_start = 5
+					range_len = 10
+				}
+				v1 = 17
+			}
+			$outputs {
+				return no
+			}
+			$calltrace {
+				*** No Call Expected ***
+			}
+		}
+	}
+
+	$testcase 3 {
+		$name ""
+		$uuid "bb53fc6e-4c16-4bf4-818a-e91419fcec37"
+
+		$teststep 3.1 {
+			$name ""
+			$uuid "6a598cd4-1970-4fcf-903f-686272ecff4c"
+			$inputs {
+				r1 {
+					range_start = 5
+					range_len = 10
+				}
+				v1 = 7
+			}
+			$outputs {
+				return yes
+			}
+			$calltrace {
+				*** No Call Expected ***
+			}
+		}
+	}
+}

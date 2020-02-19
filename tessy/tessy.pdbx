@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    backup="$(PROJECTROOT)\tessy\backup"
+    configuration="$(PROJECTROOT)\tessy\config\configuration.xml"
+    database="$(PROJECTROOT)\tessy"
+    defaultEnvironment="GNU GCC Eclipse CDT (Default)"
+    description=""
+    enableSourceRoot="true"
+    sourceRoot="$(PROJECTROOT)"
+    identifier="7c89ff87-d92b-40db-b038-b724e2e1b346"
+    location="$(PROJECTROOT)\tessy"
+    name="Git_IVIR"
+    projectVersion="5"
+    tessyVersion="4.2.6"
+    isTemplate="false"
+    isSample="false"/>
