@@ -9,26 +9,26 @@ struct range {int range_start; int range_len;};
 
 typedef int value;
 
-typedef enum {no, yes} result;
+typedef enum {NO, YES} result;
 
 // Checks if R1.start <= V1 < (R1.start + R1.len),
 // e.g. R1.start = 5, R1.len = 2
-// ==> V1 == 4 ---> no
-//     V1 == 5 ---> yes
-//     V1 == 6 ---> yes
-//     V1 == 7 ---> no
+// ==> V1 == 4 ---> NO
+//     V1 == 5 ---> YES
+//     V1 == 6 ---> YES
+//     V1 == 7 ---> NO
 // However, the implementation is intentionally
-// erroneous: V1 == 7 results "yes" instead of "no"!
+// erroneous: V1 == 7 results "YES" instead of "NO"!
 //
 
 result is_value_in_range (struct range R1, value V1)
 {
 	if (V1 < R1.range_start)
-		return no;
+		return NO;
 
 	if (V1 > (R1.range_start + R1.range_len))
-		return no;
+		return NO;
 
-	return yes;
+	return YES;
 
 }
