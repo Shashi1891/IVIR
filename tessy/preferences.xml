@@ -16,10 +16,10 @@
     <preference key="metrics.enableMaximumCyclomaticComplexity" value="false"/>
     <preference key="metrics.enableMccCoverageTotal" value="true"/>
     <preference key="metrics.enableMcdcCoverageTotal" value="true"/>
-    <preference key="metrics.enableResultSignificance" value="false"/>
+    <preference key="metrics.enableResultSignificance" value="true"/>
     <preference key="metrics.enableStatementCoverageTotal" value="true"/>
-    <preference key="metrics.enableTestCaseToComplexityRatio" value="false"/>
-    <preference key="metrics.enableTotalCyclomaticComplexity" value="false"/>
+    <preference key="metrics.enableTestCaseToComplexityRatio" value="true"/>
+    <preference key="metrics.enableTotalCyclomaticComplexity" value="true"/>
     <preference key="metrics.estimatedTimeFormula" value="5 * $(CALLS) + 4 * $(COMPLEXITY) + 3 * $(STATEMENTS) + 15"/>
     <preference key="metrics.highActualToEstimatedTimeThreshold" value="2.0"/>
     <preference key="metrics.highCyclomaticComplexityThreshold" value="20"/>
@@ -37,11 +37,10 @@
     <preference key="metrics.showMaximumCyclomaticComplexity" value="false"/>
     <preference key="metrics.showMccCoverageTotal" value="false"/>
     <preference key="metrics.showMcdcCoverageTotal" value="false"/>
-    <preference key="metrics.showResultSignificance" value="false"/>
+    <preference key="metrics.showResultSignificance" value="true"/>
     <preference key="metrics.showStatementCoverageTotal" value="false"/>
-    <preference key="metrics.showTestCaseToComplexityRatio" value="false"/>
-    <preference key="metrics.showTotalCyclomaticComplexity" value="false"/>
-    <preference key="preferences.execution.batchDirectory" value="C:\Users\S.Nag\Projects\TESSY\Git_IVIR\tessy"/>
+    <preference key="metrics.showTestCaseToComplexityRatio" value="true"/>
+    <preference key="metrics.showTotalCyclomaticComplexity" value="true"/>
     <preference key="preferences.execution.batchReportDirectory" value="$(PROJECTROOT)\report"/>
     <preference key="preferences.execution.batchReportFileName" value="TESSY_OverviewReport_$(DATETIME)"/>
     <preference key="preferences.execution.createNewTestRun" value="false"/>
