@@ -32,3 +32,15 @@ result is_value_in_range (struct range R1, value V1)
 	return YES;
 
 }
+
+result is_value_in_range_2 (struct range R2, value V2)
+{
+	if (V2 < R2.range_start)
+		return NO;
+
+	if (V2 > (R2.range_start + R2.range_len))
+		return NO;
+
+	return YES;
+
+}
